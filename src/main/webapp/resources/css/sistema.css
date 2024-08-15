@@ -1,0 +1,61 @@
+body {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: normal;
+}
+
+header {
+    padding: 5px 0;
+    margin-bottom: 20px;
+    height: 30px;
+    background-color: #545454;
+    color: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2); /* Adicionado cor da sombra */
+}
+
+#conteudo {
+    padding: 0 8px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 0 8px;
+    margin-bottom: 15px;
+}
+
+#login-dialog {
+    width: 290px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.grid-login {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+.rotulo {
+    width: 150px;
+}
+
+.ui-panelgrid td { /* Corrigido o seletor */
+    height: 34px;
+}
+
+.ajax-status {
+    position: fixed;
+    top: 55px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+}

@@ -23,14 +23,22 @@
             <version>4.0</version>
         </dependency>
 
-        <!-- javax.faces 2.1.21 -->
+        <!-- JSF 2.1.21 -->
         <dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>javax.faces</artifactId>
             <version>2.1.21</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
+    
+    <repositories>
+        <repository>
+            <id>prime-repo</id>
+            <name>PrimeFaces Maven Repository</name>
+            <url>https://repository.primefaces.org</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
