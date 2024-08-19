@@ -25,11 +25,40 @@
 	</p:ajaxStatus>
 
  	<header>
- 		<div>
- 			<h:link>
-				<a>JJ TECH</a> 			
+ 		<div style="float: left" >
+ 			<h:link outcome="/Home">
+				<a style="font-weight: bold; font-size: 25px" >JJ TECH</a> 			
  			</h:link>
  		</div>
+ 		
+ 		
+ 		<div style="display: flex; align-items: center; justify-content: flex-end; margin-right: 110px;">
+    <span style="height: 50px; line-height: 30px; margin-right: 60px;">
+        Olá Usuário
+    </span>
+    
+    <h:form>
+        <p:menubar style="display: inline-block">
+            <p:submenu label="Cadastros">
+                <p:menuitem value="Clientes"/>
+                <p:menuitem value="Usuarios"/>
+                <p:separator />
+                <p:menuitem value="Categorias"/>
+                <p:menuitem value="Produtos" outcome="/produtos/ConsultaProdutos"/>
+            </p:submenu>
+            
+            <p:submenu label="Pedidos">
+            
+            
+            <p:menuitem value="Novos Pedidos" outcome="/pedidos/CadastroPedidos"/>
+            <p:menuitem value="Pesquisa"  outcome="/pedidos/PesquisaPedidos"/> 
+            
+            </p:submenu>
+            <p:menuitem value="Sair"/> 
+        </p:menubar>
+    </h:form>
+</div>
+ 		
  	
  	</header>
  	
