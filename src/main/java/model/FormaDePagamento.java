@@ -1,0 +1,5 @@
+package model;
+
+public enum FormaDePagamento {
+	DINHEIRO,CARTAO_CREDITO,CARTAO_DEBITO,PIX,CHEQUE,BOLETO_BANCARIO
+}
