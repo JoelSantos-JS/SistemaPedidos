@@ -13,7 +13,7 @@ public class TestePedido {
   public static void main(String[] args) {
 	  
 	  
-	    EntityManagerFactory factory = Persistence.createEntityManagerFactory("PedidoVendaPU");
+	    EntityManagerFactory factory = Persistence.createEntityManagerFactory("Pedido10PU");
 	    EntityManager manager = factory.createEntityManager();
 	    
 	    EntityTransaction trx = manager.getTransaction();
